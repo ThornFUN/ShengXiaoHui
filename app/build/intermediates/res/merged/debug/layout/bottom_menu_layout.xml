@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true">
+
+    <RadioGroup
+        android:id="@+id/rg_bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#e6e6e6"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/bottom_button_style"
+            android:drawableTop="@drawable/app_65"
+            android:text="@string/home_text" />
+
+        <RadioButton
+            android:id="@+id/rb_activate"
+            style="@style/bottom_button_style"
+            android:drawableTop="@drawable/app_66"
+            android:text="@string/active_text" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <!--<RadioButton-->
+        <!--android:id="@+id/rb_harvest"-->
+        <!--android:text="收获"-->
+        <!--android:drawableTop="@drawable/app_44"-->
+        <!--style="@style/bottom_button_style"/>-->
+        <RadioButton
+            android:id="@+id/rb_input"
+            style="@style/bottom_button_style"
+            android:drawableTop="@drawable/app_67"
+            android:text="@string/warehousing_text" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/bottom_button_style"
+            android:drawableTop="@drawable/app_68"
+            android:text="@string/setting_text" />
+    </RadioGroup>
+
+
+    <!--<com.njsd.yinghuo.CircleImageView-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:id="@+id/iv_icon"-->
+    <!--android:src="@drawable/app_71"-->
+    <!--android:layout_width="48dp"-->
+    <!--android:layout_height="48dp"-->
+    <!--app:border_width="0dp" />-->
+
+
+    <FrameLayout
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/app_70"
+        android:paddingBottom="2dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/app_64" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="5dp"
+            android:text="收获"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
+    </FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">生肖汇</string>
+    <string name="login">登录</string>
+    <string name="rat">鼠</string>
+    <string name="ox">牛</string>
+    <string name="tiger">虎</string>
+    <string name="hare">兔</string>
+    <string name="dragon">龙</string>
+    <string name="snake">蛇</string>
+    <string name="house">马</string>
+    <string name="sheep">羊</string>
+    <string name="moneky">猴</string>
+    <string name="rooster">鸡</string>
+    <string name="dog">狗</string>
+    <string name="boar">猪</string>
+    <string name="dao">道</string>
+    <string name="ru">儒</string>
+    <string name="shi">释</string>
+    <string name="totalcredits">总学分</string>
+    <string name="creditbank">学分库</string>
+    <string name="credits">学分</string>
+    <string name="newcredits">新学分</string>
+    <string name="lovecredits">爱心学分</string>
+    <string name="totalrevenue">总收益</string>
+    
+    <string name="account">账 号</string>
+    <string name="password">密 码</string>
+
+    <string name="login_account_text">登陆账号</string>
+    <string name="input_password_text">输入密码</string>
+    <string name="confirm_password_text">确认密码</string>
+    <string name="member_nickname_text">学员昵称</string>
+    <string name="phone_text">手机号码</string>
+    <string name="new_password_text">新密码</string>
+
+    <string name="active_zodiac_text">激活生肖</string>
+    <string name="gain_credit_text">收获学分</string>
+    <string name="credits_warehousing_text">学分入库</string>
+
+    <string name="credits_right_text">学分归位</string>
+    <string name="my_students_text">我的学生</string>
+    <string name="game_rule_text">游戏规则</string>
+    <string name="key_share_text">一键分享</string>
+
+    <string name="home_text">首页</string>
+    <string name="active_text">激活</string>
+    <string name="warehousing_text">入库</string>
+    <string name="setting_text">设置</string>
+
+    <string name="sprede_new_text">推广生成新成员</string>
+
+    <string name="today_reward_text">今日奖励</string>
+    <string name="today_new_text">今日新学员</string>
+    <string name="my_info_text">我的信息</string>
+    <string name="my_member_text">我的学员</string>
+    <string name="open_account_text">开通会员</string>
+
+    <string name="my_space_text">我的空间</string>
+    <string name="statistic_data_text">统计信息</string>
+    <string name="my_collection_text">我的收藏</string>
+    <string name="is_clear_cache_text">是否清空缓存</string>
+    <string name="help_info_text">帮助信息</string>
+    <string name="feedback_text">意见反馈</string>
+    <string name="change_password_text">修改密码</string>
+    <string name="about_text">关于</string>
+    <string name="version_update_text">版本更新</string>
+    <string name="log_out_text">退出登陆</string>
+
+
+    
+    <string name="paragraph_text1">
+"\u3000\u3000"+生肖汇于2004年正式涉足电商领域，2015年，生肖汇集团市场交易额达到4627亿元，净收入达到1813亿元，年交易额
+同比增长78%，增速是行业平均增速的2倍。生肖汇是中国收入规模最大的互联网企业。2016年7月，生肖汇入榜2016
+《财富》全球500强，成为中国首家，唯一入选的互联网企业，截至2016年6月30日，生肖汇集团拥有超过11万名正式员工
+，业务涉及电商、金融和技术三大领域。</string>
+    <string name="paragraph_text2">"\u3000\u3000"+2014年5月，生肖汇集团在美国斯达克证劵交易所正式挂牌上市，是中国第一个成功赴美上市的大型综合电商平台，并成功
+跻身全球前十大互联网公司排行榜，2015年7月，生肖汇评价高成长性入选纳斯达克100指数和纳斯达克100平均加权指数。</string>
+</resources>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_63">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/app_50" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/totalcredits"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6000"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/creditbank"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6000"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/credits"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6000"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newcredits"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6000"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lovecredits"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6000"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/totalrevenue"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6000"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_01" />
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_02" />
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_03" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_04" />
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_05" />
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_06" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_07" />
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_08" />
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_09" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_10" />
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_11" />
+
+            <ImageView
+                android:layout_width="@dimen/regist_image_width"
+                android:layout_height="@dimen/regist_image_width"
+                android:src="@drawable/app_12" />
+        </TableRow>
+    </TableLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/app_41"
+            android:gravity="center"
+            android:text="@string/active_zodiac_text" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/app_42"
+            android:gravity="center"
+            android:text="@string/gain_credit_text" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/app_43"
+            android:gravity="center"
+            android:text="@string/credits_warehousing_text" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/app_44"
+            android:gravity="center"
+            android:text="@string/credits_right_text" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/app_46"
+            android:gravity="center"
+            android:text="@string/my_students_text" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/app_47"
+            android:gravity="center"
+            android:text="@string/game_rule_text" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/app_45"
+            android:gravity="center"
+            android:text="@string/key_share_text" />
+
+
+    </RadioGroup>
+
+</RelativeLayout>
